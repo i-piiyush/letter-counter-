@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(83, 44, 44);
+}
+
+section{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.heading{
+  padding: 5px 0;
+}
+textarea{
+  width: 500px;
+  height: 100px;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  border-radius: 13px;
+}
